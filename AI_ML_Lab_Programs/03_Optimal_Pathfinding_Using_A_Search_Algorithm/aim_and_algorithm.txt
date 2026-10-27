@@ -1,0 +1,21 @@
+3. Optimal Pathfinding Using A* Search Algorithm
+
+Aim:
+To design and implement the A* Search algorithm using a suitable heuristic function to find the optimal path from a start node to a goal node.
+
+Algorithm:
+Step 1: Start.
+Step 2: Define the graph with nodes, edges, and their corresponding path costs.
+Step 3: Define the heuristic value h(n) for each node.
+Step 4: Insert the start node into the priority queue (OPEN list) with its f(n) value.
+Step 5: Remove the node having the smallest f(n) value from the priority queue.
+Step 6: If the selected node is the goal node, display the optimal path and total cost, then stop.
+Step 7: Otherwise, mark the selected node as visited.
+Step 8: Generate all neighboring nodes of the current node.
+Step 9: For each neighboring node, calculate:
+g(n) = Actual cost from the start node.
+h(n) = Heuristic estimate to the goal.
+f(n)=g(n)+h(n).
+Step 10: Insert the neighboring nodes into the priority queue according to their f(n) values.
+Step 11: Repeat Steps 5–10 until the goal node is reached or no path exists.
+Step 12: Stop.

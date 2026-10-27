@@ -1,0 +1,22 @@
+2. 8-Puzzle Problem Using State-Space Search
+
+Aim:
+To solve the 8-Puzzle Problem using state-space search by representing the initial and goal states and finding a sequence of valid moves to reach the goal state.
+
+Algorithm:
+Step 1: Start
+Step 2: Define the initial state and goal state.
+Step 3: Create an empty queue.
+Step 4: Insert the initial state into the queue.
+Step 5: Create an empty visited list.
+Step 6: Mark the initial state as visited.
+Step 7: Remove a state from the front of the queue.
+Step 8: Check whether the current state is the goal state.
+Step 9: If the goal state is reached, Display the solution and Stop.
+Step 10: Find the position of the blank tile (0).
+Step 11: Generate all possible new states by moving the blank tile Up, Down, Left, or Right.
+Step 12: For each generated state, check whether it is already visited.
+Step 13: If not visited, mark it as visited and insert it into the queue.
+Step 14: Repeat Steps 7 to 13 until the queue becomes empty.
+Step 15: If the queue becomes empty, display "No Solution Found".
+Step 16: Stop.

@@ -1,0 +1,22 @@
+9. Classification Using Feedforward Neural Network with TensorFlow
+
+Aim:
+To construct and train a Feedforward Neural Network using TensorFlow to classify diabetes risk data into Low Risk or High Risk based on Glucose Level, BMI, and Age.
+
+Algorithm:
+Step 1: Import the required libraries: NumPy, TensorFlow, train_test_split, and StandardScaler.
+Step 2: Create the dataset with Glucose Level, BMI, and Age as input features and Low Risk (0) / High Risk (1) as target classes.
+Step 3: Split the dataset into 80% training data and 20% testing data.
+Step 4: Standardize the input features using StandardScaler.
+Step 5: Construct the Feedforward Neural Network with:
+Input layer with 3 input features
+First hidden layer with 8 neurons and ReLU activation
+Second hidden layer with 4 neurons and ReLU activation
+Output layer with 1 neuron and Sigmoid activation
+Step 6: Compile the model using the Adam optimizer, binary cross-entropy loss function, and accuracy as the evaluation metric.
+Step 7: Train the neural network using the training data for 50 epochs with a batch size of 4.
+Step 8: Evaluate the trained model using the testing data and display the test accuracy.
+Step 9: Enter new patient data containing Glucose Level, BMI, and Age and standardize it using the same scaler.
+Step 10: Use the trained model to predict the class of the new data.
+Step 11: If the model output is greater than or equal to 0.5, classify it as High Risk; otherwise, classify it as Low Risk.
+Step 12: Display the predicted result.

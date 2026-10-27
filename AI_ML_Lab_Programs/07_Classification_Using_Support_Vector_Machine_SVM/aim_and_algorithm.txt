@@ -1,0 +1,21 @@
+7. Classification Using Support Vector Machine (SVM)
+
+Aim:
+To apply the Support Vector Machine (SVM) algorithm on the Iris dataset and evaluate its classification performance using accuracy and other performance metrics.
+
+Algorithm:
+Step 1: Start the program.
+Step 2: Import the required libraries (load_iris, train_test_split, SVC, and evaluation metrics).
+Step 3: Load the Iris dataset.
+Step 4: Separate the dataset into input features (X) and target labels (y).
+Step 5: Split the dataset into training and testing sets using train_test_split().
+Step 6: Create an SVM classifier using the SVC class.
+Step 7: Train the SVM model using the training data with the fit() method.
+Step 8: Use the trained model to predict the class labels for the testing data.
+Step 9: Compare the predicted labels with the actual labels.
+Step 10: Calculate the classification accuracy.
+Step 11: Generate the confusion matrix.
+Step 12: Calculate precision, recall, and F1-score for performance evaluation.
+Step 13: Display the predicted values and evaluation metrics.
+Step 14: Interpret the classification performance of the SVM model.
+Step 15: Stop the program.

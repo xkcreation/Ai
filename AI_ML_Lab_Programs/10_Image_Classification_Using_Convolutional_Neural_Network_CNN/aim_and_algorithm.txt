@@ -1,0 +1,25 @@
+10. Image Classification Using Convolutional Neural Network (CNN)
+
+Aim:
+To design and implement a Convolutional Neural Network (CNN) using TensorFlow to classify handwritten digit images.
+
+Algorithm:
+Step 1: Import the required libraries: TensorFlow, NumPy, Matplotlib, and Random.
+Step 2: Load the MNIST handwritten digit dataset containing training and testing images.
+Step 3: Display the dataset summary and sample handwritten digit images.
+Step 4: Select a limited number of training and testing images for faster execution.
+Step 5: Normalize the image pixel values by dividing them by 255.
+Step 6: Reshape the images to include the channel dimension required by the CNN.
+Step 7: Construct the CNN with:
+Input layer
+Convolutional layer with ReLU activation
+Max Pooling layer
+Flatten layer
+Dense hidden layer with ReLU activation
+Output layer with 10 neurons and Softmax activation
+Step 8: Compile the CNN using the Adam optimizer, Sparse Categorical Cross-Entropy loss function, and accuracy metric.
+Step 9: Train the CNN using the training images for 2 epochs with a batch size of 64.
+Step 10: Evaluate the trained CNN using the testing images and display the test accuracy.
+Step 11: Randomly select one image from the testing dataset.
+Step 12: Predict the handwritten digit using the trained CNN.
+Step 13: Display the actual digit, predicted digit, and selected handwritten digit image.

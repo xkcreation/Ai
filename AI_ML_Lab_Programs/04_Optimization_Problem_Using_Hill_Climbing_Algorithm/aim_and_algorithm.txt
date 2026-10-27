@@ -1,0 +1,16 @@
+4. Optimization Problem Using Hill Climbing Algorithm
+
+Aim:
+To implement the Hill Climbing algorithm for solving an optimization problem and find the optimal solution using an objective function.
+
+Algorithm:
+Step 1: Start.
+Step 2: Define the objective function to be optimized.
+Step 3: Select an initial solution (starting point).
+Step 4: Generate the neighboring solutions (left and right).
+Step 5: Evaluate the objective function for the current solution and its neighboring solutions.
+Step 6: Compare the neighboring solutions with the current solution.
+Step 7: Move to the neighboring solution if it has a better objective value.
+Step 8: Repeat Steps 4–7 until no neighboring solution has a better objective value.
+Step 9: Display the optimal solution and the maximum objective value.
+Step 10: Stop.

@@ -1,0 +1,22 @@
+6. Binary Classification Using Logistic Regression
+
+Aim:
+To build a Logistic Regression classifier for a binary classification task (Spam Detection) and classify an email as Spam or Not Spam based on its text content.
+
+Algorithm:
+Step 1: Start the program.
+Step 2: Import the required libraries (CountVectorizer and LogisticRegression).
+Step 3: Create the training dataset containing email messages and their corresponding labels (Spam = 1, Not Spam = 0).
+Step 4: Display the training data and labels.
+Step 5: Create a CountVectorizer object to convert text data into numerical features.
+Step 6: Transform the training emails into a feature matrix using fit_transform().
+Step 7: Create a Logistic Regression model.
+Step 8: Train the Logistic Regression model using the fit() method with the feature matrix and labels.
+Step 9: Create the testing dataset containing the email to be classified.
+Step 10: Display the testing email.
+Step 11: Transform the testing email into numerical features using the trained vectorizer.
+Step 12: Predict whether the email is Spam or Not Spam using the trained Logistic Regression model.
+Step 13: Display the prediction result.
+Step 14: If the prediction is 1, display "The email is classified as SPAM."
+Step 15: Otherwise, display "The email is classified as NOT SPAM."
+Step 16: Stop the program.

@@ -1,0 +1,23 @@
+8. Classification Using K-Nearest Neighbors (KNN) Algorithm
+
+Aim:
+To implement the K-Nearest Neighbors (KNN) classification algorithm using a loan dataset to predict whether a loan application will be approved or not approved.
+
+Algorithm:
+Step 1: Import the required libraries such as Pandas, LabelEncoder, StandardScaler, KNeighborsClassifier, train_test_split, accuracy_score, and confusion_matrix.
+Step 2: Load the loan dataset from the CSV file using pd.read_csv().
+Step 3: Display the first few records and total number of records in the dataset.
+Step 4: Select the required columns: ApplicantIncome, LoanAmount, Credit_History, and Loan_Status.
+Step 5: Remove rows containing missing values using dropna().
+Step 6: Convert the target variable Loan_Status into numerical values using LabelEncoder.
+Step 7: Separate the feature variables (X) and target variable (y).
+Step 8: Split the dataset into training data (80%) and testing data (20%).
+Step 9: Apply feature scaling using StandardScaler to normalize the feature values.
+Step 10: Create a K-Nearest Neighbors (KNN) classifier with n_neighbors = 5.
+Step 11: Train the KNN model using the scaled training data.
+Step 12: Predict the loan status for the testing data.
+Step 13: Compare the actual and predicted values.
+Step 14: Evaluate the model using Accuracy Score and Confusion Matrix.
+Step 15: Enter details of a new applicant and scale the input data.
+Step 16: Predict the loan status for the new applicant using the trained KNN model.
+Step 17: Display the final result as Approved or Not Approved.
